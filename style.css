@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 400px;
+    text-align: center;
 }
 
 .profile {
@@ -67,24 +68,41 @@ p {
 }
 
 .menu {
-    list-style: none;
-    font-family: cursive;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position:fixed;
     z-index:10;
-    cursor: pointer;
+    background:white;
+    width: 100%;
+    margin-top: 0px;
+    top:0px;
 }
 .link {
-float: left;
-color: blue;
-padding-top: 5px;
-padding-left: 9px;
-padding-right: 9px;
-padding-bottom: 5px;
+    display: inline;
+padding-left: 33px;
+padding-right: 25px;
     font-family: 'Potta One', cursive;
     font-size:20px;
 }
 .link:hover{
-background-color: red;
+font-size: 25px;
+text-decoration:underline;
+}
+a {
+text-decoration: none;
+    color: cyan;
+    text-shadow:2px 2px gainsboro;
+}
+.article:hover {
+color: aqua;    
+}
+#writings a {
+text-shadow: none;
+text-decoration:underline;
+color: dodgerblue;
+}
+#contact{
+background:red;    
+}
+.contact_1 a {
+color: white;
+text-shadow:none;
 }
